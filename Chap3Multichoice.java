@@ -9,9 +9,9 @@ public class Chap3Multichoice {
         Scanner scan = new Scanner(System.in);
         
         String[] answers = {
-        	    "B", "B", "B", "B", "B", "B", "B", "A", "D", "C", 
-        	    "B", "A", "B", "B", "C", "B", "B", "C", "A", "B", 
-        	    "B", "D", "B", "B", "B", "B", "A", "B", "D", "C" };
+        	    "C", "B", "B", "D", "A", "B", "B", "A", "D", "C", 
+        	    "B", "A", "D", "B", "C", "A", "B", "C", "A", "B", 
+        	    "B", "D", "B", "B", "C", "B", "A", "B", "D", "C" };
         
         String[] responses = new String[30];
         int score = 0;
@@ -24,8 +24,8 @@ public class Chap3Multichoice {
             case 0:
                 System.out.println("1. A process in an OS is defined as:");
                 System.out.println("A. A single instruction in a program.");
-                System.out.println("B. A unit of activity with program code and data.");
-                System.out.println("C. A temporary file created by the OS.");
+                System.out.println("B. A temporary file created by the OS.");
+                System.out.println("C. A unit of activity with program code and data.");
                 System.out.println("D. An error in the operating system.");
                 break;
             case 1:
@@ -45,14 +45,14 @@ public class Chap3Multichoice {
             case 3:
                 System.out.println("4. Context data in a process holds:");
                 System.out.println("A. File system data.");
-                System.out.println("B. The processor’s register data.");
+                System.out.println("B. Memory buffer information.");
                 System.out.println("C. Cache data.");
-                System.out.println("D. Memory buffer information.");
+                System.out.println("D. The processor’s register data.");
                 break;
             case 4:
                 System.out.println("5. What is a Process Control Block (PCB)?");
-                System.out.println("A. A memory location for process-specific files.");
-                System.out.println("B. A structure that holds data on a process.");
+                System.out.println("A. A structure that holds data on a process.");
+                System.out.println("B. A memory location for process-specific files.");
                 System.out.println("C. An I/O management block.");
                 System.out.println("D. A virtual memory allocation.");
                 break;
@@ -108,9 +108,9 @@ public class Chap3Multichoice {
             case 12:
                 System.out.println("13. A process may be suspended due to:");
                 System.out.println("A. Insufficient files.");
-                System.out.println("B. A parent process request.");
+                System.out.println("B. Memory overflow.");
                 System.out.println("C. Network latency.");
-                System.out.println("D. Memory overflow.");
+                System.out.println("D. A parent process request.");
                 break;
             case 13:
                 System.out.println("14. Memory tables in an OS manage:");
@@ -128,8 +128,8 @@ public class Chap3Multichoice {
                 break;
             case 15:
                 System.out.println("16. File tables in an OS store:");
-                System.out.println("A. Device connections.");
-                System.out.println("B. Information on files, status, and attributes.");
+                System.out.println("A. Information on files, status, and attributes.");
+                System.out.println("B. Device connections.");
                 System.out.println("C. The memory table index.");
                 System.out.println("D. Data on the OS kernel.");
                 break;
@@ -192,8 +192,8 @@ public class Chap3Multichoice {
             case 24:
                 System.out.println("25. Process tables are crucial for:");
                 System.out.println("A. Managing device drivers.");
-                System.out.println("B. Tracking the current state of each process.");
-                System.out.println("C. Storing user files.");
+                System.out.println("B. Storing user files.");
+                System.out.println("C. Tracking the current state of each process.");
                 System.out.println("D. Logging user sessions.");
                 break;
             case 25:
